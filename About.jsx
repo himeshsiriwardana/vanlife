@@ -1,9 +1,10 @@
 import React from 'react'
+import camper from './camper.png';
 
 export default function About() {
     return (
         <div className="about">
-            <img src="./camper.png" />
+            <img src={camper} />
             <div className="text-content">
                 <h1>Don’t squeeze in a sedan when you could relax in a van.</h1>
                 <div className="text">
